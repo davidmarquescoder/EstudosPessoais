@@ -19,7 +19,9 @@ public class Main {
     }
     //Criando funções
     public static void soma(){
-        System.out.println(7+8);
+        int x = 8;
+        int y = 9;
+        System.out.println(x+y);
     }
     static void mult(){
         System.out.println(3*4);
