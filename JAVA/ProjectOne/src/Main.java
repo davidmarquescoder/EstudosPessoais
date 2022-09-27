@@ -1,5 +1,5 @@
 public class Main {
-    public static  void main(String[] args){
+    public static  void main(String[] args){ //Argumentos - esses parametros passados dentro da Main da pra utilizar como uma lista
 
         //Variaveis
         var login= "Olá mundo"; //Para criar uma variável em JAVA deve-se utilizar "var" antes do nome da variável ou o tipo primitivo
@@ -13,14 +13,14 @@ public class Main {
         System.out.println(num2);
 
         //Chamando as funções criadas abaixo
-        soma();
+        soma(10, 8); //Informo apenas os valores que vai entrar em cada variavei criada no meu metodo, chamamos isso de argumentos
         mult();
         div();
+
+        System.out.println("Olá, "+args[0]);
     }
     //Criando funções
-    public static void soma(){
-        int x = 8;
-        int y = 9;
+    public static void soma(int x, int y){ //Você pode criar variaveis nos parenteses e informar seu tipo primitivo, isso a gente chama de parametro
         System.out.println(x+y);
     }
     static void mult(){
