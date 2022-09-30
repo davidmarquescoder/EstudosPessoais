@@ -10,5 +10,9 @@ public class Main {
             System.out.println(number);
             i++;
         }
+        for(int j = 0; j <= 9; j++){
+            int number = generate.nextInt(60);
+            System.out.println(number);
+        }
     }
 }
